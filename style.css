@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Quicksand", sans-serif
+    ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+	.todo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+		padding: 1em 1em 1em 1em;
+		
+	}
+
+	
+
+
+	label {
+		font-weight: 600;
+	}
+
+	button {
+		border: none;
+		font-family: inherit;
+		cursor: pointer;
+	}
+	.task-input {
+		padding: 0.5em 0.5em 0.5em 0.5em;
+	}
+
+	input[type=text], textarea {
+		-webkit-transition: all 0.20s ease-in-out;
+		-moz-transition: all 0.20s ease-in-out;
+		-ms-transition: all 0.20s ease-in-out;
+		-o-transition: all 0.20s ease-in-out;
+		outline: none;
+		border: 1px solid #DDDDDD;
+	}
+	
+	input[type=text]:focus, textarea:focus {
+		box-shadow: 0 0 1px rgb(255, 255, 255);
+		border: 1px solid rgb(255, 255, 255);
+	}
+
+	.submit {
+		border: none;
+		font-family: inherit;
+		cursor: pointer;
+		background-color: rgb(255, 255, 255);
+		border: solid 1px rgb(255, 255, 255);
+		font-size: 0.9em;
+		font-weight: lighter;
+		color: rgb(0, 0, 0);
+		padding: 0.4em;
+		border-radius: 5%;
+		
+	}
+
+	.todo {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: auto;
+		max-width: 800px;
+	}
+
+	.todo-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 1em 1em 0em 1em;
+		padding: 1em 1em 1em 1em;
+		height: 150px;
+		overflow-y: scroll;
+	}
+
+	::-webkit-scrollbar {
+		-webkit-appearance: none;
+		width: 7px;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		border-radius: 4px;
+		background-color: rgba(146, 146, 146, 0.5);
+		box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+	}
+
+	.todo-list-task {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin: 0em 1em 1em 1em;
+		color: rgb(0, 0, 0);
+		text-align: center;
+        font-weight: 600;
+		max-width: 600px;
+		/* border: 1px solid grey; */
+		/* padding: 0.5em 0.5em 0.5em 0.5em; */
+	} 
+
+	.remove-button {
+		align-items: center;
+		margin: 0em 0em 0em  0.6em;
+		color: hotpink;
+
+	}
+
+	.todo-list-task__done {
+		order: 1;
+		text-decoration: line-through;
+		color: black;
+	}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20em;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+#title{
+    margin-bottom: 5px;
+}
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 0;
+    opacity: .6;
+}
+
+.quote {
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    
+}
+
+#content {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#author {
+    font-size: 1rem;
+    margin: 15px 0;
+}

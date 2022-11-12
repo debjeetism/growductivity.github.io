@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamic Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+</head>
+
+<body>
+    <h1 id="title">WELCOME TO GROWDUCTIVITY</h1>
+    <h3>we make sure you use your time wisely, because every second counts...</h3>
+    <div class="main">
+        <span id="time">17:00:00</span>
+        
+        <h1>
+            <span id="greeting">Good morning, </span>
+            <span id="name">ChilledDev</span>
+        </h1>
+        <br>
+        <br>
+        <h2 class="todo-header">What do I need to do today?</h2><br>        
+    
+    </div>
+    <div class="container">
+    <div class="todo">
+            
+            <form class="form">
+              <label for="task-input">Add a new task...</label><br>
+              <input
+                class="task-input"
+                id="task-input"
+                type="text"
+                required
+              />
+              <input
+                class="submit"
+                type="submit"
+                value="Add"
+              />
+            </form>
+          <div class="todo-list">
+           
+          </div>
+        </div> 
+    </div>       
+   
+      
+      
+    
+    <footer>
+        <div class="quote">
+            <h5 id="content">Quote Content Here</h5>
+            <h6 id="author">Quote Author Here</h6>
+        </div>
+    </footer>
+
+    <script src="todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+
+</body>
+
+</html>
